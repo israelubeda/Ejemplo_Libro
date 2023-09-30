@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ncx PUBLIC "-//NISO//DTD ncx 2005-1//EN" "http://www.daisy.org/z3986/2005/ncx-2005-1.dtd">
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
+  <head>
+    <meta name="dtb:uid" content="ID_DEL_LIBRO"/>
+  </head>
+  <docTitle>
+    <text>El Tesoro Perdido del Dragón</text>
+  </docTitle>
+  <navMap>
+    <navPoint id="navPoint-1" playOrder="1">
+      <navLabel>
+        <text>Portada</text>
+      </navLabel>
+      <content src="cover.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-2" playOrder="2">
+      <navLabel>
+        <text>Capítulo 1: El Tesoro Perdido</text>
+      </navLabel>
+      <content src="chapter1.xhtml"/>
+    </navPoint>
+    <!-- Agrega más capítulos y elementos aquí -->
+  </navMap>
+</ncx>
+

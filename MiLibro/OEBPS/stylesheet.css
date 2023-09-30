@@ -1,0 +1,27 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.4;
+    color: #666;
+  }
+  
+  /* Estilos específicos para la portada */
+  #cover {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  #cover h1 {
+    font-size: 36px;
+    color: #444;
+  }
+  
