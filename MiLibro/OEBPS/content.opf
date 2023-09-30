@@ -1,18 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package version="3.0" xmlns="http://www.idpf.org/2007/opf">
   <metadata>
-    <dc:title>El Tesoro Perdido del Dragón</dc:title>
+    <dc:title>El Tesoro Perdido del Dragón 2</dc:title>
+    <dc:description>aqui va una breve descripcion del libro </dc:description>      
     <dc:creator>Israel Ubeda</dc:creator>
     <dc:language>es</dc:language>
   </metadata>
   <manifest>
+    <item href="cubierta.xhtml" id="cubierta.xhtml" media-type="application/xhtml+xml"/>
     <item id="cover" href="cover.xhtml" media-type="application/xhtml+xml"/>
     <item id="chapter1" href="chapter1.xhtml" media-type="application/xhtml+xml"/>
     <!-- Agrega más elementos aquí -->
   </manifest>
   <spine>
+    <itemref idref="cubierta.xhtml"/>
     <itemref idref="cover"/>
     <itemref idref="chapter1"/>
     <!-- Agrega más elementos aquí -->
   </spine>
+  <guide>
+    <reference href="cubierta.xhtml" title="Cover" type="cover"/>
+  </guide>
 </package>
